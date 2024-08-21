@@ -72,12 +72,12 @@ const styles = StyleSheet.create({
   imageDBZ: {
     width:190,
     display:'flex',
-    left:'33%',
+    left:'30%',
     height:490,
     marginTop:50,
     paddingBottom:0,
     paddingTop:0,
-
+    resizeMode:'contain',
   },
 
   dados: {
@@ -85,7 +85,7 @@ const styles = StyleSheet.create({
   },
 
   dadosText: {
-    marginTop:8,
+    marginTop:0,
     justifyContent: 'center',
     textAlign: 'center',
     fontWeight: '500',
